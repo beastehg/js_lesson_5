@@ -23,7 +23,7 @@
 // alert(calculator.diff());
 // alert(calculator.div());
 
-// // Задание № 2
+// // // Задание № 2
 // let coffee_Machine = {
 // 	message: "Your coffee is ready!",
 // 	start: function () {
@@ -97,6 +97,7 @@
 // format.call(country, "", "");
 // format.apply(country, ["[", "]"]);
 // format.call(country.capital, "", "");
+// format.apply(country.capital,["",""]);
 // format.apply(country.language, ["", ""]);
 
 // // Задача № 6
@@ -120,10 +121,10 @@
 // }
 
 // function hello (name) {
-// 	concat.bind(null, "Hello", name, " ");
+// 	concat.bind(null, "Hello", name, " ")();
 // }
-
-// hello("Dima");
+// hello('World');
+// hello('John');
 
 // // Задача № 8 цикл
 // function pow(x, int) {
@@ -155,7 +156,8 @@
 // 		sum = arr[arr.length - 1];
 // 		arr.length = arr.length - 1;
 // 		sum += getSum(...arr);
+// 		console.log("summ = " + sum);
 // 	}
 // 	return sum;
 // }
-// console.log(getSum(1, 5, 10, 20));
+// console.log(getSum(1, 5, 10, 20, 30));
